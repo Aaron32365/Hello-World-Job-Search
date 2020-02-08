@@ -11,7 +11,7 @@ https://github.com/Aaron32365/Test-Project
 
 # Hello World! Job Search
 
-DESCRIPTION HERE
+A Programming and Web Development job search aggregator
 
 
 >  ## **Table of Contents** :notebook:
