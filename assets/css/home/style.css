@@ -11,11 +11,9 @@
 
 
 
-body{
+html{
     background-color: rgba(122, 122, 122, 1);
-    
 }
-
 
 
 
@@ -27,7 +25,6 @@ body{
     font-size: 22px;
     border-radius: 5px;
     padding: 10px;
-    display: flex;
 }
 
 
@@ -36,23 +33,6 @@ body{
 #footer{
     position: absolute;
     bottom: 0;
-    display:flex;
-}
-
-
-
-.left{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-
-
-.right{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 
@@ -62,19 +42,14 @@ body{
 }
 
 #logo{
-    display: flex;
-    flex-direction: right;
+    /*Placeholder, going to replaced with an image */
 }
 
 
-#space{
-    flex-grow: 4;
-}
 
 
 #headerDecor{
     position: relative;
-    display: flex;
 }
 
 .button{
@@ -84,8 +59,8 @@ body{
     padding: 7px;
     margin: 7px;
     background-color: rgba(95, 95, 95, 1);
-    display:flex;
-    flex-direction: left;
+    color: rgba(200, 200, 200, 1);
+    border: 0;
 }
 
 
@@ -93,8 +68,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding: 7px;
-    display: flex;
-    flex-direction: left;
 }
 
 
@@ -105,11 +78,6 @@ body{
 
 
 
-
-.down{
-    position: absolute;
-    bottom: 0;
-}
 
 
 
