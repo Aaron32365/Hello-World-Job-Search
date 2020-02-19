@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<link rel = "stylesheet" type="text/css" href="assets/css/index/home.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>
+        Hello World!
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"/><script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<body>
+    <div class="background-container">
+    </div>
+    <nav class="level banner" id="header">
+        <!-- Stuff that is going to be on the right side of the header -->
+        <div class="level-left">
+            <!-- Logo will be replaced with image once I have finished it, the page itself has higher priority" -->
+            <div id="logo" class="level-item">
+              <div id="Iconic">
+                Hello <em> World</em>!
+              </div>
+              </div>
+        </div>
+        <!-- Stuff that is going to be on the left side of the header. -->
+        <div class="level-right">
+            <div id="post job" class="level-item button">
+                post job
+            </div>
+            <div id="post resume" class="level-item button">
+                post resume
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="columns">
+          <div class="column is-two-thirds">
+            <label class="label">Job Type</label>
+            <input class="input is-primary"  id="userInput" style='border-color: black;' type="text" placeholder="Software Engineer" />
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-two-thirds">
+            <label class="label">Location</label>
+            <input class="input is-primary" id="locationInput" style="border-color: black;" type="text" placeholder="San Fransisco" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="level-item">
+        <button class="button is-primary" id="searchButton" style="background-color: red;">Search</button>
+      </div>
+      <br />
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-quarter" id="leftColumn">
+            <button class="button is-primary" id="clearHistory" style="background-color: red;">Clear History</button>
+            <div id="recentsearches-header">
+              Recent Searches
+            </div>
+            <div style="border: 1px solid black;" id="recentSearches">
+            </div>
+          </div>
+          <div class="column is-three-quarters">
+            <div id="results-header">
+              Search Results 
+            </div>
+            <div id="searchResults" style="border: 2px solid black;">  
+              <table id="jobList"> 
+                <tr>
+                  <th>Company</th>
+                  <th>Job</th> 
+                  <th>Location</th>
+                  <th>Description</th> 
+                </tr> 
+                <tr>
+                  <td>
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src = "./assets/css/index/script.js"></script>
+</body>
+<nav id="footer" class="level banner">
+    <div class = "level-right">
+        <!-- placeholder -->
+        <div class = "level-item">
+        </div>
+        </div>
+    <div class="level-left">
+        <div id="contact" class="level-item link">
+            <p>contact</p>
+        </div>
+    </div>
+</nav>
+</html>

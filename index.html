@@ -6,26 +6,40 @@
       href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Teko&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- leave in for backend testing -->
+    <!--
     <button id="searchButton">Search</button>
+    <button id="clearHistory"> clear history</button>
     <form >
       <input type="text" id="userInput"> input
       <input type="text" id="locationInput">location
     </form>
+    -->
     <!-- leave in for back end testing -->
-    <h1>Welcome To</h1>
-
-    <h2>Hello World!</h2>
-    
-
-    <h3>A Programming and Web Development job Search Aggregator</h3>
+    <section id="main-container">
+      <h1 class="typeWrite" id="main-text">
+        Welcome <em> to </em>
+      <div id="bigText">
+        Hello <em> World</em>!
+      </div>
+      <hr>
+      </h1>
+      <div class="typeWrite" id="sub-text">
+        A programming and web development job search aggregator.
+        <br>
+        <div id="start">
+          <a href="/Home.html">Begin your search!</a>
+        </div>
+      </div>
+    </section>
+    <div id="searchHistory">
+    </div>
     <div id="testDiv">
 
     </div>
-
-    <button type="button">Start Search!</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./assets/css/index/script.js"></script>
   </body>
