@@ -1,6 +1,6 @@
 /*
     Danielle Smith
-    style.css -- manipulates appearance of home page
+    style.css -- manipulates base style of pages
 */
 
 
@@ -26,6 +26,9 @@ html{
     font-size: 22px;
     border-radius: 5px;
     padding: 10px;
+    /* position: absolute; */
+
+    z-index: 5;
 }
 
 
@@ -33,7 +36,7 @@ html{
 
 #footer{
     position: absolute;
-    bottom: 0;
+    bottom:0;
     margin-bottom: 0;
 }
 

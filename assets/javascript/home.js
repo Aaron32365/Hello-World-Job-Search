@@ -6,7 +6,7 @@ $("#contact").on("click", function(){
         newWindow.focus();
     }
     else{
-        alert("Opening new window failed.");
+        alert("Opening contact page failed.");
     }
 });
 
