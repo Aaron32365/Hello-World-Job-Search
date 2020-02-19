@@ -21,6 +21,7 @@ html{
 
 
 
+
 .card{
     background-color: rgba(240, 128, 128, .75);
     /* height: 60px; */
@@ -68,4 +69,9 @@ html{
     margin: 10px;
     padding: 15px;
     border-radius: 5px;
+}
+
+.link{
+    margin-right: 15px;
+    background-color: rgba(0,0,0, .0);
 }
