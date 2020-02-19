@@ -1,66 +1,57 @@
-body {
-  background: linear-gradient(270deg, #d3dce7, #2a2466);
-  background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 57s ease infinite;
-  -moz-animation: AnimationName 57s ease infinite;
-  animation: AnimationName 57s ease infinite;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 100vh;
-  font-family: "Share Tech Mono", monospace;
+body{
+  font-family: 'Cairo', sans-serif;
+  background-color: #F4F4F4;
 }
-button {
+
+a{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 6px;
+  background-color: red;
+  text-decoration: none;
+  color: white;
+}
+
+#main-container{
+  font-size: 1.3em;
+  margin-top: 225px;
+  margin-left: 28%;
+  margin-right: 28%;
+  padding-top: 32px;
+  padding-bottom: 64px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 12px;
+  border-color: #3F3F3F;
   text-align: center;
-  height: 40px;
-  width: 100px;
-  background-color: gray;
-  align-self: center;
-  font-weight: bolder;
+  background-color: white;
+}
+#bigText{
+  font-family:'Teko', sans-serif;;
+  font-size: 2.6em;
+}
+
+hr{
+  margin-top: -12px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: solid;
+  border-color: red;
+  border-width: 8px;
+  border-radius: 10px;
+}
+
+
+#start{
+  margin-top: 16px;
+}
+
+em {
+  font-style: normal;
   color: red;
-}
-h1 {
-  font-size: xx-large;
-}
-h2 {
-  font-size: xx-large;
-}
-h3 {
-  font-size: x-large;
-}
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
