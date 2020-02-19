@@ -1,0 +1,72 @@
+/*
+    Danielle Smith
+    style.css -- manipulates appearance of contact page
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+html{
+    /* background-color: rgba(188, 143, 143, 1) */
+}
+
+
+#home{
+
+    margin-right: 30px;
+}
+
+
+
+.card{
+    background-color: rgba(240, 128, 128, .75);
+    /* height: 60px; */
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    color: rgba(200, 200, 200, 1);
+
+    z-index: 5;
+}
+
+
+.placeholder{
+    height: 90px;
+    width: 90px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
+.photo{
+    margin: 15px;
+}
+
+.tile{
+    background-color: rgba(0,0,0, .0);
+}
+
+
+.name{
+    background-color: rgba(0,0,0, .0);
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.body{
+    background-color: rgba(0,0,0, .0);
+}
+
+.description{
+    width: 80%;
+    background-color: rgba(128, 0, 0, .60);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
