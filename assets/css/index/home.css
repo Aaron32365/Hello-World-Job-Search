@@ -40,14 +40,39 @@ em{
     color: red;
 }
 
+table{
+    border-collapse: collapse;
+}
+
 #jobList th{
+    padding: 28px;
     font-size: 1.3em;
     padding-right: 32px;
+}
+
+td:nth-child(1){
+    max-width: 55px;
+    text-align: center;
     padding-left: 32px;
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+}
+td:nth-child(2){
+    padding-left: 116px;
+    max-width: 55px;
+
+}td:nth-child(3){
+    padding-left: 108px;
+    max-width: 55px;
+}
+
+
+td:nth-child(4){
+    padding-left: 148px;
+}
+
+#recentSearches{
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 8px;
+    background-color: white;
 }
