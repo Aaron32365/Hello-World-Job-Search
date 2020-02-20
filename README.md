@@ -4,7 +4,7 @@
 
 
 
-![Dorian Young]()
+![Dorian Young](https://github.com/Aaron32365/Hello-World-Job-Search/blob/master/helloWorldSC.png?raw=true)
 https://github.com/Aaron32365/Test-Project
 
 <h2>Hello World! Job Search</h2>
@@ -60,10 +60,10 @@ Not Available
 
 > ## Badges
 
-![HTML](https://img.shields.io/badge/HTML-1%25-red)
+![HTML](https://img.shields.io/badge/HTML-44%25-red)
 
-![CSS](https://img.shields.io/badge/CSS-1%25-purple)
+![CSS](https://img.shields.io/badge/CSS-16%25-purple)
 
-![Javascript](https://img.shields.io/badge/Javascript-98%25-yellow)
+![Javascript](https://img.shields.io/badge/Javascript-39%25-yellow)
 
-![GROUP](https://img.shields.io/badge/Dorian-100%25-green)
+![GROUP](https://img.shields.io/badge/GROUP-100%25-green)
