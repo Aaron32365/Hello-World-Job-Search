@@ -1,0 +1,93 @@
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #F4F4F4;
+}
+#header{
+    
+    font-family:'Teko', sans-serif;
+    padding-bottom: 24px;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: black;
+    background-color: white;
+}
+
+.level-left{
+    margin-top: 20px;
+    margin-left: 48px;
+    font-size: 2em;
+}
+
+.level-right{
+    margin-top: 20px;
+    margin-right: 48px;
+    font-size: 2em;
+}
+
+#searchResults{
+    border-radius: 6px;
+    background-color: white;
+    height: 470px;
+    overflow: auto;
+}
+
+#searchButton{
+    margin-left: 200px;
+}
+
+em{
+    font-style: normal;
+    color: red;
+}
+
+#jobList th{
+    font-size: 1.3em;
+    padding-right: 32px;
+    padding-left: 32px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+input[type=text] {
+    width: 90%;
+    margin-left: 2%;
+    border-bottom: 1px solid red;
+}
+
+input[type=radio] {
+    margin-left: 2%;
+}
+
+#jDesc {
+    height: 350px;
+}
+
+#resume2 {
+    height: 350px;
+}
+
+input[type=text] {
+    width: 90%;
+    margin-left: 2%;
+    border-bottom: 1px solid red;
+  }
+  
+  input[type=radio] {
+    margin-left: 2%;
+  }
+  
+  #jDesc {
+    height: 350px;
+  }
+  
+  #resume2 {
+    height: 350px;
+  }
+
+  a{
+    color: #3F3F3F;
+  }
