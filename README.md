@@ -4,7 +4,7 @@
 
 
 
-![Dorian Young]()
+![Dorian Young](https://github.com/Aaron32365/Hello-World-Job-Search/blob/master/helloWorldSC.png?raw=true)
 https://github.com/Aaron32365/Test-Project
 
 <h2>Hello World! Job Search</h2>
